@@ -6,6 +6,7 @@ import All from './allThree.js';
 import Print from './arrayList.js';
 import Condition from './conditionalComponents.js';
 import Review from './assignment.js';
+import Day1 from './day1assgn.js';
 
 
 const rootElement = document.getElementById('root');
@@ -19,4 +20,4 @@ const rootRef = ReactDOM.createRoot(rootElement);
 // rootRef.render(ans)
 // rootRef.render(<Summ/>)
 // rootRef.render(<Details/>)
-rootRef.render(<Review/>)
+rootRef.render(<Day1/>)

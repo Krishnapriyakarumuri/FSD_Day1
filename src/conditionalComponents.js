@@ -7,7 +7,7 @@ function Condition(){
 
     return(
 
-        <div>
+        <div> 
             {enter ? <h1>Truee</h1> : <div>Falsee</div>}
         </div>
     )
