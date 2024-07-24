@@ -1,0 +1,18 @@
+.btnn{
+    margin-left: 50px;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 10px;
+    /* background-color: #c17ea8; */
+    background-color: #ffffff;
+    width: 150px; 
+    /* font-size: xx-large; */
+    height: 60px;
+    /* font: bolder; */
+    /* font-size: larger; */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    /* shadow included... for each container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
