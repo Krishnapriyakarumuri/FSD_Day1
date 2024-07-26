@@ -6,8 +6,8 @@
     /* background-color: #c17ea8; */
     background-color: #ffffff;
     width: 75px; 
-    font-size: xx-large;
-    height: 85px;
+    /* font-size: xx-large; */
+    height: 70px;
     font: bolder;
     /* font-size: larger; */
     box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
@@ -23,16 +23,16 @@
 .addtocartBtn{
     align-items: center;
     border: 1px solid #ccc;
-    padding: 16px;
+    /* padding: 16px; */
     border-radius: 10px;
-    margin-left: 4rem;
-    margin-top: 3rem;
+    /* margin-left: 4rem; */
+    /* margin-top: 3rem; */
     background-color: #c17ea8;
     /* background-color: #ffffff; */
     width: 100px; 
-    font-size: xx-large;
-    height: 100px;
-    font-size: larger;
+    /* font-size: xx-large; */
+    height: 70px;
+    /* font-size: larger; */
     box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
     /* shadow included... for each container */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

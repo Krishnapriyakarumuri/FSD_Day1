@@ -9,7 +9,7 @@ function CardUI(props){
                 <p>{props.desc}</p> */}
                 {/* to apply padding to details -->  className="card-body"*/}
                 <div className="card-body">
-                    <h2>{props.userFromArray}</h2>
+                    <h2>{props.userFromArray}</h2> 
                     <p>{props.col}</p>
                     <p>{props.branchname}</p>
                     {/* <h1>{props.user.name}</h1> */}
