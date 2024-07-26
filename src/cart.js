@@ -1,10 +1,14 @@
 import { useContext } from "react";
 import { UserContextcard } from "./App";
 import Navigation from "./Navigation";
+import { useEffect } from "react";
 
 function Cart(){
     // const {globalListObject, globalsetListObject} = useContext(UserContextcard);
-    const {globalUserCart, globalsetUserCart} = useContext(UserContextcard);
+    const {globalUserCart} = useContext(UserContextcard);
+    useEffect(() => {
+        console.log(globalUserCart);
+    })
         return (
             <div>
                 <Navigation/>

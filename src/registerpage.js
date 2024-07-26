@@ -1,12 +1,12 @@
-import { useState, useEffect} from 'react';
+import { useState} from 'react';
 import { UserContextcard } from './App';
 import { useContext } from 'react';
-import { UserContext } from './Home';
+// import { UserContext } from './Home';
 function Register(){
     // use Context provided by App.js
-    const {userDetails, setUserDetails} = useContext(UserContextcard); 
-    const {globalisLogin, globalsetIsLogin} = useContext(UserContextcard);
-    const [count, setCount] = useState(0);
+    const { setUserDetails} = useContext(UserContextcard); 
+    // const {globalisLogin, globalsetIsLogin} = useContext(UserContextcard);
+    // const [count, setCount] = useState(0);
     const [collegeIdValue, setCollegeId] = useState(''); 
     const [password, setPassword] = useState(''); 
     const [emailid, setemailId] = useState('');
@@ -24,7 +24,7 @@ function Register(){
         const obj = {
             collegeIdValue, password, emailid, branchValue, yearValue, genderValue
         };
-        globalsetIsLogin(true);
+        // globalsetIsLogin(true);
         setUser(obj);
         setUserDetails(obj);
         console.log(obj);
